@@ -1,38 +1,18 @@
 const container = document.querySelector('.container')
+/*function createDiv(){
+    for(let i = 1; i < 257 ; i++){       //257 = 16x16
+        const div = document.createElement('div')   //create div element
+        div.classList.add('divs')          //add to class 'divs'
+        container.appendChild(div)         // append each to container
+    }
 
-const div1 = document.createElement('div')
-container.appendChild(div1)
-const div2 = document.createElement('div')
-container.appendChild(div2)
-const div3 = document.createElement('div')
-container.appendChild(div3)
-const div4 = document.createElement('div')
-container.appendChild(div4)
-const div5 = document.createElement('div')
-container.appendChild(div5)
-const div6 = document.createElement('div')
-container.appendChild(div6)
-const div7 = document.createElement('div')
-container.appendChild(div7)
-const div8 = document.createElement('div')
-container.appendChild(div8)
-const div9 = document.createElement('div')
-container.appendChild(div9)
-const div10 = document.createElement('div')
-container.appendChild(div10)
-const div11 = document.createElement('div')
-container.appendChild(div11)
-const div12 = document.createElement('div')
-container.appendChild(div12)
-const div13 = document.createElement('div')
-container.appendChild(div13)
-const div14 = document.createElement('div')
-container.appendChild(div14)
-const div15 = document.createElement('div')
-container.appendChild(div15)
-const div16 = document.createElement('div')
-container.appendChild(div16)
+const divs= document.querySelectorAll('.div')
 
+divs.forEach((div) => {
+div.addEventListener('mouseover', (e) => {
+    e.target.style.backgroundColor='black'
+} )
 
+})
 
-
+*/
